@@ -28,11 +28,11 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Logging in...';
     submitButton.disabled = true;
 
-    // Simulate API call (replace with actual authentication)
+    // Authentication check
     setTimeout(() => {
-        if (username === 'admin' && password === 'password') { // Replace with actual authentication
+        if (username === 'biniadmin@gmail.com' && password === 'digitalaksumites') {
             // Store authentication token
-            const token = 'dummy-token'; // Replace with actual token
+            const token = 'dummy-token';
             if (remember) {
                 localStorage.setItem('authToken', token);
             } else {
@@ -48,7 +48,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
             }, 1000);
         } else {
             // Show error message
-            showNotification('Invalid username or password', 'error');
+            showNotification('Invalid email or password', 'error');
             
             // Reset button
             submitButton.innerHTML = originalContent;
