@@ -1,8 +1,61 @@
-everythings should be like the same copy image.png 
-
-you should have the same color and the same font and the same style and the same layout and the same everything. 
-like image.png
-
-
-i want to say that you should be like the same copy image.png, foreground and background and the same everything. 
-for my website.
+{
+  "code_style": {
+    "indentation": "2 spaces",
+    "max_line_length": 80,
+    "file_naming": "kebab-case",
+    "component_naming": "PascalCase",
+    "css_naming": "BEM methodology"
+  },
+  "project_structure": {
+    "assets": "All media files (images, videos, fonts)",
+    "css": "Stylesheets with component-specific and global styles",
+    "js": "JavaScript modules and functions",
+    "admin": "Admin panel related files",
+    "components": "Reusable UI components"
+  },
+  "documentation": {
+    "readme": "Required for each major component",
+    "comments": "JSDoc style for functions",
+    "commit_messages": "Conventional Commits format"
+  },
+  "performance": {
+    "image_formats": ["webp", "jpg", "png"],
+    "max_image_size": "500KB",
+    "lazy_loading": true,
+    "minification": true
+  },
+  "security": {
+    "input_validation": true,
+    "xss_protection": true,
+    "csrf_protection": true,
+    "secure_cookies": true
+  },
+  "accessibility": {
+    "aria_labels": "required",
+    "alt_text": "required",
+    "color_contrast": "WCAG 2.1 AA",
+    "keyboard_navigation": true
+  },
+  "browser_support": {
+    "chrome": "last 2 versions",
+    "firefox": "last 2 versions",
+    "safari": "last 2 versions",
+    "edge": "last 2 versions"
+  },
+  "testing": {
+    "unit_tests": "required for JS functions",
+    "responsive_testing": ["mobile", "tablet", "desktop"],
+    "cross_browser_testing": true
+  },
+  "seo": {
+    "meta_tags": "required",
+    "semantic_html": true,
+    "sitemap": "required",
+    "robots_txt": "required"
+  },
+  "version_control": {
+    "branch_naming": "feature/fix/hotfix-description",
+    "pull_requests": "required",
+    "code_review": "required"
+  }
+} 

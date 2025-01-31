@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://digitalaksumite.vercel.app/sitemap.xml 
